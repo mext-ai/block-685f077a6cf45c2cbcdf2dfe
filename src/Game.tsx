@@ -7,7 +7,7 @@ import { Sky, Environment, PerspectiveCamera, OrthographicCamera, OrbitControls,
 import type { DirectionalLight } from 'three'
 
 import { HideMouse, Keyboard } from './controls'
-import { Ramp, Track, Vehicle, Goal, Train, Heightmap } from '.../public/models'
+import { Ramp, Track, Vehicle, Goal, Train, Heightmap } from './models'
 import { angularVelocity, levelLayer, position, rotation, useStore } from './store'
 import { Speed, Minimap, Intro, Help } from './ui'
 import { useToggle } from './useToggle'
