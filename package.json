@@ -5,18 +5,21 @@
     "preview": "webpack serve --config webpack.config.js --mode production"
   },
   "dependencies": {
-    "@react-three/drei": "^10.0.5",
-    "@react-three/fiber": "^9.1.0",
-    "peerjs": "^1.5.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "three": "^0.174.0",
     "@pmndrs/branding": "0.0.8",
     "@react-three/cannon": "6.3.0",
+    "@react-three/drei": "9.16.1",
+    "@react-three/fiber": "8.0.27",
     "@react-three/postprocessing": "2.4.6",
+    "@types/three": "0.141.0",
     "inter-ui": "3.19.3",
+    "leva": "0.9.29",
     "lodash-es": "4.17.21",
-    "use-asset": "1.0.4"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.142.0",
+    "use-asset": "1.0.4",
+    "peerjs": "^1.5.5"
   },
   "devDependencies": {
     "@types/react": "^19.0.8",
