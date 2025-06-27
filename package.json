@@ -14,9 +14,7 @@
     "@pmndrs/branding": "0.0.8",
     "@react-three/cannon": "6.3.0",
     "@react-three/postprocessing": "2.4.6",
-    "@types/three": "0.141.0",
     "inter-ui": "3.19.3",
-    "leva": "0.9.29",
     "lodash-es": "4.17.21",
     "use-asset": "1.0.4"
   },
