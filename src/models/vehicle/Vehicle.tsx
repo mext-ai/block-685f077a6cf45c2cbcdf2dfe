@@ -198,11 +198,11 @@ function VehicleAudio() {
 
   return (
     <>
-      <PositionalAudio ref={engineAudio} url="sounds/engine.mp3" autoplay loop distance={5} />
-      <PositionalAudio ref={boostAudio} url="sounds/boost.mp3" autoplay loop distance={5} />
-      <PositionalAudio ref={accelerateAudio} url="sounds/accelerate.mp3" autoplay loop distance={5} />
-      <PositionalAudio ref={honkAudio} url="sounds/honk.mp3" distance={10} />
-      <PositionalAudio ref={brakeAudio} url="sounds/tire-brake.mp3" distance={10} />
+      <PositionalAudio ref={engineAudio} url="https://content.mext.app/uploads/820db1fe-9475-42b0-bad0-a0e328ed590e.mp3" autoplay loop distance={5} />
+      <PositionalAudio ref={boostAudio} url="https://content.mext.app/uploads/eaba1092-f04c-48d1-a4a5-58690f14651f.mp3" autoplay loop distance={5} />
+      <PositionalAudio ref={accelerateAudio} url="https://content.mext.app/uploads/b95e423f-7f90-47ff-bf3a-953071530b43.mp3" autoplay loop distance={5} />
+      <PositionalAudio ref={honkAudio} url="https://content.mext.app/uploads/13dea7ab-6ddd-41f6-80a9-77cc2a2a9f26.mp3" distance={10} />
+      <PositionalAudio ref={brakeAudio} url="https://content.mext.app/uploads/ed3256bf-ec79-4a62-ab8e-aec7b97b6412.mp3" distance={10} />
     </>
   )
 }

@@ -47,7 +47,7 @@ function createHeightfieldMatrix(image: HTMLImageElement): number[][] {
 type HeightmapProps = Required<Pick<HeightfieldProps, 'position' | 'rotation'>> & Required<Pick<HeightfieldArgs['1'], 'elementSize'>>
 
 export function Heightmap({ elementSize, position, rotation }: HeightmapProps) {
-  const heightmap = useTexture('textures/heightmap_1024.png')
+  const heightmap = useTexture('https://content.mext.app/uploads/5813ecdd-b941-44dd-a810-5b62780a8648.png')
   const heights = useAsset<number[][], Texture[]>(async () => createHeightfieldMatrix(heightmap.image), heightmap)
   useHeightfield(() => ({ args: [heights, { elementSize }], position, rotation }), undefined, [elementSize, position, rotation])
   return null

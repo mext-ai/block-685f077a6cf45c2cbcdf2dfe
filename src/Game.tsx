@@ -73,7 +73,7 @@ export function Game() {
           </ToggledDebug>
         </Physics>
         <Track />
-        <Environment files="../public/textures/dikhololo_night_1k.hdr" />
+        <Environment files="https://content.mext.app/uploads/ac0204a0-8a8c-47cc-aebc-dabffeeddcd0.hdr" />
         <ToggledMap />
         <ToggledOrbitControls />
       </Canvas>

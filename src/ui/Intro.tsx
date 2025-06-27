@@ -27,8 +27,10 @@ export function Intro({ children }: IntroProps): JSX.Element {
   const [session, set] = useStore((state) => [state.session, state.set])
 
   useEffect(() => {
-    if (clicked && ready) set({ ready: true })
-  }, [ready, clicked])
+    if (ready) {
+      setClicked(true)
+    }
+  }, [ready])
 
   return (
     <>
@@ -37,9 +39,6 @@ export function Intro({ children }: IntroProps): JSX.Element {
         <div className="stack">
           <div className="intro-keys">
             <Keys style={{ paddingBottom: 20 }} />
-            <a className="continue-link" href="#" onClick={() => ready && setClicked(true)}>
-              {!ready ? <Loader /> : 'Click to continue'}
-            </a>
           </div>
         </div>
         <Footer
